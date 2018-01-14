@@ -5,7 +5,7 @@ function typoglycemia(string $sentence): string
     $result = '';
     $wordList = explode(' ', $sentence);
     foreach ($wordList as $word) {
-        if (mb_strlen($word) < 3) {
+        if (mb_strlen($word) < 4) {
             $result .= $word;
         } else {
             $result .= mb_substr($word, 0, 1);
