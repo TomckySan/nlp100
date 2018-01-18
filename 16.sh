@@ -1,1 +1,1 @@
-split -l $1 hightemp.txt hightemp_16_
+split -l $1 hightemp.txt 16_sh_

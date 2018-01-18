@@ -1,1 +1,1 @@
-paste col1.txt col2.txt > hightemp_13.txt
+paste col1.txt col2.txt > 13_sh.txt
